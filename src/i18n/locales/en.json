@@ -1,0 +1,7 @@
+{
+  "msg": "Hello in English, {name}",
+  "menu": {
+    "home": "home",
+    "cv": "cv"
+  }
+}

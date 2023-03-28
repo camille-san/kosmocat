@@ -1,0 +1,7 @@
+{
+  "msg": "Hola en català, {name}",
+  "menu": {
+    "home": "home",
+    "cv": "cv"
+  }
+}
