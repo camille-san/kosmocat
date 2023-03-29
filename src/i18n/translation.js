@@ -3,16 +3,6 @@ import {nextTick} from "vue";
 
 const Translation = {
 
-    // get defaultLocale() {
-    //     //return import.meta.env.VITE_DEFAULT_LOCALE
-    //     return "en";
-    // },
-
-    get supportedLocales() {
-        //return import.meta.env.VITE_SUPPORTED_LOCALES.split(",")
-        return ["en","fr","ca", "es"];
-    },
-
     get currentLocale() {
         return i18n.global.locale.value
     },
@@ -29,7 +19,7 @@ const Translation = {
     },
 
     async loadLocaleMessages(locale) {
-        if(!i18n.global.availableLocales.includes(locale)) {
+        if (!i18n.global.availableLocales.includes(locale)) {
             const messages = await import(`@/i18n/locales/${locale}.json`)
             i18n.global.setLocaleMessage(locale, messages.default)
         }

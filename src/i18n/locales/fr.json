@@ -1,7 +1,22 @@
 {
-  "msg": "Bonjour en Français, {name}",
+  "lang": {
+    "fr": "Français",
+    "en": "Anglais",
+    "es": "Espagnol",
+    "ca": "Catalan"
+  },
   "menu": {
-    "home": "accueil",
-    "cv": "passé"
+    "about": "A propos",
+    "techno": "Technologies",
+    "contact": "Contact"
+  },
+  "about": {
+    "p1": "Freelance remote developer (fr/en/es)",
+    "p2": "Belge expat à Mallorca",
+    "p3": "8+ années d'expérience en backend",
+    "p4": "Frontend enthousiaste",
+    "p5": "Expérience dans le domaine bancaire, radiotélévisuel et pharmaceutique",
+    "p6": "Expérience en tant qu'analyste fonctionnel et Product Owner",
+    "p7": "Agile & Scrum"
   }
 }
